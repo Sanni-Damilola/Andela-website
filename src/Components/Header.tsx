@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import styled from "styled-components";
 import hero from "./Assets/heropic.jpeg";
@@ -21,72 +23,70 @@ const Header = () => {
   return (
     <>
       {show ? (
-        <Container bg="white" cc="black">
+        <Container bg='white' cc='black'>
           <Wrapper>
-            <Log to="/">
+            <Log to='/'>
               <Logo src={andela2} />
             </Log>
-            <Navigation cn="black">
-              <Nav to="expert" cl="black">
+            <Navigation cn='black'>
+              <Nav to='expert' cl='black'>
                 For Technology Experts
               </Nav>
-              <Nav to="business" cl="black">
+              <Nav to='business' cl='black'>
                 Business
               </Nav>
-              <Nav to="" cl="black">
+              <Nav to='' cl='black'>
                 Enterprise
               </Nav>
-              <Nav to="about" cl="black">
+              <Nav to='about' cl='black'>
                 About Us
               </Nav>
             </Navigation>
             <Btn>
               <Button
-                br="50px"
-                bg=""
-                bd="1px solid black"
-                wide="180px"
-                cc="black"
-              >
+                br='50px'
+                bg=''
+                bd='1px solid black'
+                wide='180px'
+                cc='black'>
                 Apply for Jobs
               </Button>
-              <Button br="50px" bd="" bg="#56C870" wide="150px" cc="black">
+              <Button br='50px' bd='' bg='#56C870' wide='150px' cc='black'>
                 Hire Talent
               </Button>
             </Btn>
           </Wrapper>
         </Container>
       ) : (
-        <Container bg="" cc="">
+        <Container bg='' cc=''>
           <Wrapper>
-            <Log to="/">
+            <Log to='/'>
               <Logo src={andela} />
             </Log>
-            <Navigation cn="white">
-              <Nav to="expert" cl="white">
+            <Navigation cn='white'>
+              <Nav to='expert' cl='white'>
                 For Technology Experts
               </Nav>
-              <Nav to="business" cl="white">
+              <Nav to='business' cl='white'>
                 Business
               </Nav>
-              <Nav to="" cl="white">
+              <Nav to='' cl='white'>
                 Enterprise
               </Nav>
-              <Nav to="about" cl="white">
+              <Nav to='about' cl='white'>
                 About Us
               </Nav>
             </Navigation>
             <Btn>
               <Button
-                br="50px"
-                bg=""
-                bd="1px solid white"
-                wide="180px"
-                cc="white"
-              >
+                br='50px'
+                bg=''
+                bd='1px solid white'
+                wide='180px'
+                cc='white'>
                 Apply for Jobs
               </Button>
-              <Button br="50px" bd="" bg="#56C870" wide="150px" cc="black">
+              <Button br='50px' bd='' bg='#56C870' wide='150px' cc='black'>
                 Hire Talent
               </Button>
             </Btn>

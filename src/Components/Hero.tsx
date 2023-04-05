@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState } from "react";
 import styled from "styled-components";
 import hero from "./Assets/heropic.jpeg";
@@ -19,23 +21,21 @@ const Hero = () => {
         </Para>
         <Btn2>
           <Buttons
-            br="50px"
-            bd=""
-            bg="#56C870"
-            wide="200px"
-            length="70px"
-            cc="black"
-          >
+            br='50px'
+            bd=''
+            bg='#56C870'
+            wide='200px'
+            length='70px'
+            cc='black'>
             Hire Talent
           </Buttons>
           <Buttons
-            br="50px"
-            bg="white"
-            bd="1px solid white"
-            length="70px"
-            wide="200px"
-            cc="black"
-          >
+            br='50px'
+            bg='white'
+            bd='1px solid white'
+            length='70px'
+            wide='200px'
+            cc='black'>
             Apply for Jobs
           </Buttons>
         </Btn2>

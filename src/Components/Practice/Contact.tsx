@@ -1,14 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
+/** @format */
+
+import React from "react";
+import styled from "styled-components";
 
 const Contact = () => {
-  return (
-    <One>Contact</One>
-  )
-}
+  return <One>Contact</One>;
+};
 
-export default Contact
+export default Contact;
 
 const One = styled.div`
-    margin-top: 200px;
-`
+  margin-top: 200px;
+`;

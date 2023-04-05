@@ -1,30 +1,30 @@
-import React from 'react';
+/** @format */
+
+import React from "react";
 import styled from "styled-components";
 
-interface icons{
-    img: string;
+interface icons {
+  img: string;
 }
 
-const TrustedProps: React.FC<icons> = ({img}) => {
+const TrustedProps: React.FC<icons> = ({ img }) => {
   return (
     <Wrap>
-        <img src={img} alt="" />
+      <img src={img} alt='' />
     </Wrap>
-  )
-}
+  );
+};
 
 export default TrustedProps;
 
 const Wrap = styled.div`
-    /* background-color: red; */
-    width: 60%;
-    height: 70px;
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
+  /* background-color: red; */
+  width: 60%;
+  height: 70px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 `;
-const Image = styled.img`
-    
-`;
+const Image = styled.img``;

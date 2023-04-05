@@ -1,33 +1,42 @@
-import React from 'react'
-import styled from 'styled-components';
+/** @format */
 
+import React from "react";
+import styled from "styled-components";
 
-interface card{
+interface card {
   tittle: string;
   image: string;
   bg: string;
 }
 
-const InsightsCard: React.FC<card> = ({tittle, image, bg}) => {
+const InsightsCard: React.FC<card> = ({ tittle, image, bg }) => {
   return (
-    <Container bg = {bg}>
-      <Content >
+    <Container bg={bg}>
+      <Content>
         <Div>
           <p>Case Studies</p>
           <h2>{tittle}</h2>
-          <Buttons br = "70px" bd = "1px solid white" bg = "" wide='160px' length = "40px" cc = "white">Learn More</Buttons>
+          <Buttons
+            br='70px'
+            bd='1px solid white'
+            bg=''
+            wide='160px'
+            length='40px'
+            cc='white'>
+            Learn More
+          </Buttons>
         </Div>
       </Content>
       <Image>
-        <img src={image} alt="" />
+        <img src={image} alt='' />
       </Image>
     </Container>
-  )
-}
+  );
+};
 
 export default InsightsCard;
 
-const Container = styled.div<{bg: string}>`
+const Container = styled.div<{ bg: string }>`
   width: 710px;
   height: 350px;
   background-color: ${(props) => props.bg};
@@ -48,7 +57,7 @@ const Content = styled.div`
 const Div = styled.div`
   margin-left: 20px;
   /* background-color: yellow; */
-  p{
+  p {
     font-size: 18px;
     font-style: italic;
   }
@@ -57,32 +66,30 @@ const Image = styled.div`
   width: 330px;
   height: 350px;
   border-radius: 0px 10px 10px 0px;
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
- 
 `;
-const Buttons = styled.div<{wide: string,
-  br: string,
-  bg: string,
-  cc: string,
-  bd: string,
-  length: string,
-  }>`
-     font-size: 20px;
-     width: ${(props) => props.wide};
-     height: ${(props) => props.length};
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: ${(props) => props.br};
-     background-color: ${(props) => props.bg};
-     color: ${(props) => props.cc};
-     border: ${(props) => props.bd};
-     transition: all 350ms;
-     cursor: pointer;
-     
- `;
- 
+const Buttons = styled.div<{
+  wide: string;
+  br: string;
+  bg: string;
+  cc: string;
+  bd: string;
+  length: string;
+}>`
+  font-size: 20px;
+  width: ${(props) => props.wide};
+  height: ${(props) => props.length};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: ${(props) => props.br};
+  background-color: ${(props) => props.bg};
+  color: ${(props) => props.cc};
+  border: ${(props) => props.bd};
+  transition: all 350ms;
+  cursor: pointer;
+`;

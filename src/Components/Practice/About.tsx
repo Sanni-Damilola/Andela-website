@@ -1,13 +1,13 @@
-import React from 'react'
-import styled from 'styled-components'
+/** @format */
+
+import React from "react";
+import styled from "styled-components";
 
 const About = () => {
-  return (
-    <One>ABOUT USSSS</One>
-  )
-}
+  return <One>ABOUT USSSS</One>;
+};
 
-export default About
+export default About;
 const One = styled.div`
-    margin-top: 200px;
-`
+  margin-top: 200px;
+`;
