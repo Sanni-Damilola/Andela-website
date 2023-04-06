@@ -10,6 +10,7 @@ const HomeLayout = () => {
     <div>
       <Header />
       <Outlet /> 
+      👆👇
       {/*user childern for the Body */}
       <AndelaFooter />
     </div>
