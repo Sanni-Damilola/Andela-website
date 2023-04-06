@@ -11,7 +11,7 @@ const HomeLayout = () => {
       <Header />
       <Outlet /> 
       👆👇
-      {/*user childern for the Body */}
+      {/*childern for the Body component */}
       <AndelaFooter />
     </div>
   );
