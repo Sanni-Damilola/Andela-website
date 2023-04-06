@@ -9,7 +9,8 @@ const HomeLayout = () => {
   return (
     <div>
       <Header />
-      <Outlet />
+      <Outlet /> 
+      {/*user childern for the Body */}
       <AndelaFooter />
     </div>
   );
