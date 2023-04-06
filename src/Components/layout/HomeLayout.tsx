@@ -9,7 +9,7 @@ const HomeLayout = () => {
   return (
     <div>
       <Header />
-      <Outlet /> 
+      <Outlet />
       👆👇
       {/*childern for the Body component */}
       <AndelaFooter />
